@@ -1,4 +1,4 @@
-﻿namespace Fiorello_PB101_Demo.Extensions
+﻿namespace Fiorello_PB101_Demo.Helpers.Extensions
 {
     public static class FileExtension
     {

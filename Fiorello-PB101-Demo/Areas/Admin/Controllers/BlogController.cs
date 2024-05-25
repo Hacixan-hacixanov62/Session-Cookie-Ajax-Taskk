@@ -1,5 +1,5 @@
 ﻿using Fiorello_PB101_Demo.Data;
-using Fiorello_PB101_Demo.Extensions;
+using Fiorello_PB101_Demo.Helpers.Extensions;
 using Fiorello_PB101_Demo.Models;
 using Fiorello_PB101_Demo.Services.Interfaces;
 using Fiorello_PB101_Demo.ViewModels.Blog;

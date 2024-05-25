@@ -10592,6 +10592,13 @@ progress {
   font-size: 1.25rem;
   border-radius: var(--bs-border-radius-lg);
 }
+
+
+.paginate-active {
+    background-color: cornflowerblue !important;
+    color: white !important;
+}
+
 .form-control-lg::file-selector-button {
   padding: 0.94rem 1.94rem;
   margin: -0.94rem -1.94rem;
@@ -25863,6 +25870,7 @@ dl li {
 }
 .sidebar-dark .sidebar .nav .nav-item .nav-link .menu-title {
   color: inherit;
+ margin-right: 100px ;
 }
 .sidebar-dark .sidebar .nav .nav-item.active {
   background: #282037;

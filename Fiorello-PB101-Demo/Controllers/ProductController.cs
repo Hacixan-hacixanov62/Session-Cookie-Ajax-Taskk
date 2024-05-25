@@ -15,12 +15,11 @@ namespace Fiorello_PB101_Demo.Controllers
 
         public async Task<IActionResult> Index(int? id)
         {
-            if (id is null) return BadRequest(); 
-
-            Product product = await _productService.GetByIdAsync((int)id);
-
+            string hashData = Guid.NewGuid().ToString();
+            ViewBag.Hash = hashData;
+            if (id is null) return BadRequest();
+            Product product = await _productService.GetByIdWithAllDatasAsync((int)id);
             if (product is null) return NotFound();
-
             return View(product);
         }
     }
